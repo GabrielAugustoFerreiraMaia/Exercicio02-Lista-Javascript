@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <script src="js/app.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <h1>Calculadora IMC</h1>
+    <div class="alturaDiv">
+        <form>
+            <label>Informe sua Altura(m):</label>
+            <input class="altura" type="text">
+        </form>
+    </div>
+
+    <div class="pesoDiv">
+        <br />
+        <form>
+            <label>Informe o seu Peso(Kg):</label>
+            <input class="peso" type="text">
+        </form>
+    </div>
+    <div class="imcDiv">
+        <br />
+        <form>
+            <label>IMC(kg/m2):</label>
+            <input class="imc" disabled="disabled" type="text">
+        </form>
+    </div>
+
+    <br />
+    <button onclick="calcular()">Calcular</button>
+
+</body>
+
+</html>
